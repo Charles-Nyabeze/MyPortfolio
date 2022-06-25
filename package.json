@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-typed": "^1.2.0",
+    "react-typical": "^0.1.3"
+  }
+}
