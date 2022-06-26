@@ -1,5 +1,6 @@
 import React from 'react'
 import Typed from "react-typed"
+import './Profile.css'
 
 export default function profile() {
   return (
@@ -7,7 +8,7 @@ export default function profile() {
         <div className='profile'>
             <div className='profile-details'>
                 <div className='colz'>
-                    <div>
+                    <div className='colz-icon'>
                         <a href='https://www.linkedin.com/in/charles-nyabeze/'>
                             <i className='fa fa-linkedin'></i>
                         </a>
@@ -42,19 +43,24 @@ export default function profile() {
                         </h1>
                         <span className='details-desc'>
                             Serial learner/doer of dope sh*t
-                        ß</span>
+                        </span>
                     </span>
                 </div>
                     <div className='profile-options'>
-                            <button className='btn'>
+                            <button className='btn primary-btn'>
                                 Hire Me!
                             </button>
                             <a href='growth resume (1) (1).pdf' download='charles nyabeze resume.pdf'>
-                                <button className='btn'>
+                                <button className='btn highlighted-btn'>
                                     Get My Resume
                                 </button>
                             </a>
                     </div>
+            </div>
+            <div className='pfp'>
+                <div className='pfp-bg'>
+
+                </div>
             </div>
         </div>
     </div>
