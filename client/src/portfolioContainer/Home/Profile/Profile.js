@@ -31,7 +31,6 @@ export default function profile() {
                         <Typed
                         strings={[
                                 "I'm a full stack web developer💻",
-                                "I made six figures from NFTs💸",
                                 "I enjoy Venture Capital🕋",
                                 "I founded a VC backed startup🌱",
                                 "I love writing✍🏿",
@@ -42,7 +41,7 @@ export default function profile() {
                             />
                         </h1>
                         <span className='details-desc'>
-                            Serial learner/doer of dope sh*t
+                            Serial learner of things. I create, code, trade, invest, basically, I do dope sh*t.
                         </span>
                     </span>
                 </div>

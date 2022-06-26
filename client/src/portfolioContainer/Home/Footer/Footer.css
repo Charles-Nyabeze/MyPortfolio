@@ -1,0 +1,24 @@
+.footer-containter{
+    height: 17.8%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+}
+
+.footer img{
+    max-width: 100%;
+    height: 130px;
+}
+
+@media only screen and (max-width: 1110px){
+    .footer{
+        display: flex;
+        align-items: flex-end;
+    }
+}
