@@ -14,17 +14,17 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Full stack web developer, VC, NFT Trader, Founder, Writer, Content Creator, and serial learner of high impact skills. Personal growth is a huge hobbie of mine, that being said, I take every oppertunity I get to learn/do something new. Currently I am tackling Web3 Development.",
     highlights: {
       bullets: [
-        "Full Stack web and mobile development",
-        "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Mnanagement",
-        "Building REST API",
-        "Managing database",
+        "Founded a Web3 VC-Backed startup",
+        "Ex. VC @ Ripple Ventures",
+        "Ex. Content @ MVHQ",
+        "4 figures to 6 in 4 months",
+        "Leading CNCapital",
+        "Founder of the Inner Circle",
       ],
-      heading: "Here are a Few Highlights:",
+      heading: "Here are some of my highlights:",
     },
   };
   const renderHighlight = () => {
@@ -42,7 +42,7 @@ export default function AboutMe(props) {
       id={props.id || ""}
     >
       <div className="about-me-parent">
-        <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
+        <ScreenHeading title={"About Me"} subHeading={"Who am I?"} />
         <div className="about-me-card">
           <div className="about-me-profile"></div>
           <div className="about-me-details">

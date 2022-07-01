@@ -3,5 +3,5 @@
     display: flex;
     background-image: url(../../assets/Home/bg.jpg); 
     flex-direction: column;
-    min-height: 670px;
+    min-height: 900px;
 }

@@ -7,9 +7,7 @@ import ScreenHeading from "../../utils/screenHeading/ScreenHeading";
 import ScrollService from "../../utils/ScrollService";
 import Animations from "../../utils/Animations";
 import "./Testimonial.css";
-import lady from "../../../src/img/Testimonial/lady.png";
-import mike from "../../../src/img/Testimonial/mike.png";
-import man from "../../../src/img/Testimonial/man.png";
+import man from "../../../src/img/Testimonial/img4tw.jpg";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
@@ -46,8 +44,8 @@ export default function Testimonial(props) {
   return (
     <div>
       <ScreenHeading
-        title={"Testimonial"}
-        subHeading={"What My Client Say About Me"}
+        title={"My Best Threads"}
+        subHeading={"My Favorite Tweets"}
       />
       <section className="testimonial-section fade-in" id={props.id || ""}>
         <div className="container">
@@ -62,33 +60,13 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
-                      <i className="fa fa-quote-right" />
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis                      <i className="fa fa-quote-right" />
                     </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
                   </div>
                   <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={man} alt="no internet connection"></img>
+                    <h5>0xCharles1</h5>
+                    <p>Growth</p>
                   </div>
                 </div>
               </div>
@@ -98,103 +76,46 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      It was nice hiring this guy for my e-commerce project.He
-                      delivered even more than i can imagine. I recommend him
-                      for you.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis                      
                       <i className="fa fa-quote-right" />
                     </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img src={mike} alt="no internet connection"></img>
-                    <h5>Mikel</h5>
-                    <p>CEO MikeTech</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      When he delivered my job, my head spinned, it was so nice
-                      and he implemented every functionality i requested for.
-                      Thank you.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      This guy is incredibly awesome, I hired him and when He
-                      delivered, I honestly fell in love with the project. He is
-                      indeed a great guy,
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
                   </div>
                   <div className="client-info">
                     <img src={man} alt="no internet connection"></img>
-                    <h5>John Smith</h5>
-                    <p>Bnaker</p>
+                    <h5>0xCharles1</h5>
+                    <p>Growth</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis                    
+                      <i className="fa fa-quote-right" />
+                    </p>
+                  </div>
+                  <div className="client-info">
+                    <img src={man} alt="no internet connection"></img>
+                    <h5>0xCharles1</h5>
+                    <p>Growth</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis
+                      <i className="fa fa-quote-right" />
+                    </p>
+                  </div>
+                  <div className="client-info">
+                    <img src={man} alt="no internet connection"></img>
+                    <h5>0xCharles1</h5>
+                    <p>Growth</p>
                   </div>
                 </div>
               </div>

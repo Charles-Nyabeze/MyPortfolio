@@ -30,10 +30,10 @@ export default function profile() {
                         <h1>
                         <Typed
                         strings={[
-                                "I'm a full stack web developer💻",
-                                "I enjoy Venture Capital🕋",
-                                "I founded a VC backed startup🌱",
-                                "I love writing✍🏿",
+                                "I'm a Developer",
+                                "I'm into Venture Captial",
+                                "Founder of a Web3 Startup",
+                                "I enjoy writing",
                             ]}
                             typeSpeed={50}
                             backSpeed={50}
