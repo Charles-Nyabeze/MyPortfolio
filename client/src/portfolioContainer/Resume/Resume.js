@@ -93,21 +93,21 @@ const Resume = (props) => {
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"University of Legon Accra, Ghana"}
+        heading={"University"}
         subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
         fromDate={"2014"}
         toDate={"2018"}
       />
 
       <ResumeHeading
-        heading={"National Youth Service Corps"}
-        subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
+        heading={"Service Corps"}
+        subHeading={"Ministry Of Science And Technogy"}
         fromDate={"2019"}
         toDate={"2020"}
       />
       <ResumeHeading
         heading={"High School "}
-        subHeading={"Command Secondary School Mbiri"}
+        subHeading={"Secondary School"}
         fromDate={"2007"}
         toDate={"2012"}
       />
@@ -117,7 +117,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Ehizeex Technoloy"}
+          heading={"Technoloy"}
           subHeading={"FULL STACK DEVELOPER INTERN"}
           fromDate={"2021"}
           toDate={"Present"}
@@ -252,7 +252,7 @@ const Resume = (props) => {
       id={props.id || ""}
     >
       <div className="resume-content">
-        <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
+        <ScreenHeading title={"Resume"} subHeading={"My Resume At A Glance"} />
         <div className="resume-card">
           <div className="resume-bullets">
             <div className="bullet-container">
