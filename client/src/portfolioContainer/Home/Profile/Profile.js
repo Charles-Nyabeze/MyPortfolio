@@ -1,5 +1,7 @@
 import React from 'react'
 import Typed from "react-typed"
+import ScrollService from "../../../utils/ScrollService";
+
 import './Profile.css'
 
 export default function profile() {
@@ -46,9 +48,13 @@ export default function profile() {
                     </span>
                 </div>
                     <div className='profile-options'>
-                            <button className='btn primary-btn'>
-                                Hire Me!
-                            </button>
+                    <button
+                className="btn primary-btn"
+                onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+              >
+                {" "}
+                Hire Me{" "}
+              </button>
                             <a href='growth resume (1) (1).pdf' download='charles nyabeze resume.pdf'>
                                 <button className='btn highlighted-btn'>
                                     Get My Resume

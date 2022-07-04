@@ -55,11 +55,11 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
+    { skill: "MERN", ratingPercentage: 85 },
     { skill: "Express JS", ratingPercentage: 89 },
     { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
+    { skill: "Mongo Db", ratingPercentage: 90 },
+    { skill: "Solidity", ratingPercentage: 30 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
   ];
@@ -94,20 +94,20 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"University"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
+        subHeading={"Carleton"}
         fromDate={"2014"}
         toDate={"2018"}
       />
 
       <ResumeHeading
-        heading={"Service Corps"}
-        subHeading={"Ministry Of Science And Technogy"}
+        heading={"HighSchool"}
+        subHeading={"St.Bens"}
         fromDate={"2019"}
         toDate={"2020"}
       />
       <ResumeHeading
-        heading={"High School "}
-        subHeading={"Secondary School"}
+        heading={"Build School"}
+        subHeading={"Buildspace"}
         fromDate={"2007"}
         toDate={"2012"}
       />
@@ -130,18 +130,15 @@ const Resume = (props) => {
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
+            - Developed an 
           </span>
           <br />
           <span className="resume-description-text">
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
+            - Integrated the web app with ffmsdfmld
           </span>
           <br />
           <span className="resume-description-text">
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
+            - lorem ispoum reandal ainnane ianefaelm jea ls skdnead
           </span>
           <br />
         </div>
