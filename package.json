@@ -8,7 +8,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run  server\" \"npm run client\"",
-    "build":"npm run vercel build"
+    "build":"npm run vercel-build"
   },
   "repository": {
     "type": "git",
