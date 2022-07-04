@@ -8,6 +8,10 @@ import Animations from "../../utils/Animations";
 import "./Testimonial.css";
 import man from "../../../src/img/Testimonial/img4tw.jpg";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
+import ripple from "../../../src/img/Testimonial/rpx.jpg";
+import inner from "../../../src/img/Testimonial/ivc.jpg";
+import agora from "../../../src/img/Testimonial/agoraa.jpg";
+
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -43,8 +47,8 @@ export default function Testimonial(props) {
   return (
     <div>
       <ScreenHeading
-        title={"My Best Threads"}
-        subHeading={"My Favorite Tweets"}
+        title={"My Highlishgts"}
+        subHeading={"cool stuff I've done"}
       />
       <section className="testimonial-section fade-in" id={props.id || ""}>
         <div className="container">
@@ -59,13 +63,13 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis                      <i className="fa fa-quote-right" />
+                      Learnt how to master trading in 4 months and now run a 6+ figure portfolio.
                     </p>
                   </div>
                   <div className="client-info">
                     <img src={man} alt="no internet connection"></img>
                     <h5>0xCharles1</h5>
-                    <p>Growth</p>
+                    <p>NFTs</p>
                   </div>
                 </div>
               </div>
@@ -75,14 +79,14 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis                      
+                      Created a 300+ person group of the greatest minds from the ages of 15-25.
                       <i className="fa fa-quote-right" />
                     </p>
                   </div>
                   <div className="client-info">
-                    <img src={man} alt="no internet connection"></img>
-                    <h5>0xCharles1</h5>
-                    <p>Growth</p>
+                    <img src={inner} alt="no internet connection"></img>
+                    <h5>Inner Circle</h5>
+                    <p>Creating</p>
                   </div>
                 </div>
               </div>
@@ -91,14 +95,14 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis                    
+                      Dropped out of University to found a Web3 Company along side my childhood friend.
                       <i className="fa fa-quote-right" />
                     </p>
                   </div>
                   <div className="client-info">
-                    <img src={man} alt="no internet connection"></img>
-                    <h5>0xCharles1</h5>
-                    <p>Growth</p>
+                    <img src={agora} alt="no internet connection"></img>
+                    <h5>Agora Labs</h5>
+                    <p>Founding</p>
                   </div>
                 </div>
               </div>
@@ -107,14 +111,14 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et facilisis leo. Morbi vitae placerat ante. Integer lacus augue, auctor ac imperdiet vitae, venenatis sed turpis
+                      Joined a VC to learn Venture Capital for 12 weeks along side like minded individuals.
                       <i className="fa fa-quote-right" />
                     </p>
                   </div>
                   <div className="client-info">
-                    <img src={man} alt="no internet connection"></img>
-                    <h5>0xCharles1</h5>
-                    <p>Growth</p>
+                    <img src={ripple} alt="no internet connection"></img>
+                    <h5>RippleX</h5>
+                    <p>VC</p>
                   </div>
                 </div>
               </div>

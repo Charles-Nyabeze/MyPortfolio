@@ -67,26 +67,26 @@ const Resume = (props) => {
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "2022", toDate: "2022" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "A Personal Portfolio website to showcase everything about me.",
+      subHeading: "Technologies Used: React JS, Bootsrap, Express, Dotenv, Node",
     },
     {
-      title: "Mobile E-shop ",
+      title: "GameZone",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "An online slack clone that allows users to share their favorite games with others",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used: SQL, Express, Bootstrap, Node JS, ",
     },
     {
-      title: "Ecommerce Website ",
+      title: "Agora",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "Web3 Social Token Gating Platform - Frontend",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: Figma, React JS, Maze, ChakraUI",
     },
   ];
 
@@ -94,22 +94,22 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"University"}
-        subHeading={"Carleton"}
-        fromDate={"2014"}
-        toDate={"2018"}
+        subHeading={"Carleton University - Fullstack Web Development"}
+        fromDate={"2021"}
+        toDate={"2022"}
       />
 
       <ResumeHeading
         heading={"HighSchool"}
-        subHeading={"St.Bens"}
-        fromDate={"2019"}
-        toDate={"2020"}
+        subHeading={"St.Benedict Catholic Secondary School - Graduated with Honors"}
+        fromDate={"2015"}
+        toDate={"2021"}
       />
       <ResumeHeading
-        heading={"Build School"}
-        subHeading={"Buildspace"}
-        fromDate={"2007"}
-        toDate={"2012"}
+        heading={"Digital Marketing"}
+        subHeading={"Google - Digital Marketing Certification"}
+        fromDate={"2022"}
+        toDate={"2022"}
       />
     </div>,
 
@@ -117,28 +117,27 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Technoloy"}
-          subHeading={"FULL STACK DEVELOPER INTERN"}
+          heading={"Founding"}
+          subHeading={"CMO of AgoraLabs"}
           fromDate={"2021"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+            Built a Web3 Social Token Gating Platform
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an 
+            - Raised 200k+
           </span>
           <br />
           <span className="resume-description-text">
-            - Integrated the web app with ffmsdfmld
+            - Integrated the web app with blockchain Technologies
           </span>
           <br />
           <span className="resume-description-text">
-            - lorem ispoum reandal ainnane ianefaelm jea ls skdnead
+            - Worked with A-Class creators to launch their own social tokens
           </span>
           <br />
         </div>
@@ -181,16 +180,16 @@ const Resume = (props) => {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        heading="Writing"
+        description="Apart from being a founder and a code writer, I also love to write about topics that interest me."
       />
       <ResumeHeading
-        heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        heading="NFTs"
+        description="I started in the NFT space with just over 4 figures to my name. Now, I run a 6 figure + portfolio with just under 4 months in the market."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        heading="Snowboarding"
+        description="I like to challenge myself and snowboardong allows me to do just that."
       />
     </div>,
   ];
