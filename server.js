@@ -2,14 +2,11 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
-const contactRoute = require("./routes/contactRoutes");
 
 const app = express();
 
 app.use(express.json());
 app.use(cors());
-
-app.use("/", contactRoute);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
